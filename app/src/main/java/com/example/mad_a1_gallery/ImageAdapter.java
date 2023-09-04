@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for custom image adapter to handle images in gallery
+ * MAD-A1
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_a1_gallery;
 
 import android.content.Context;

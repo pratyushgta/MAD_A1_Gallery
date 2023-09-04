@@ -1,3 +1,9 @@
+/**
+ * This class contains methods for the main/ welcome screen of the gallery app
+ * MAD-A1
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
 package com.example.mad_a1_gallery;
 
 import androidx.appcompat.app.AppCompatActivity;

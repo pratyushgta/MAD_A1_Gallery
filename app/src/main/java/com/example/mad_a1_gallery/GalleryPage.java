@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for the intent/ activity accessed from main activity
+ * MAD-A1
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_a1_gallery;
 
 import androidx.appcompat.app.AppCompatActivity;

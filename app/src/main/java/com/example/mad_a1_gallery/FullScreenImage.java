@@ -1,3 +1,10 @@
+/**
+ * This class contains methods for viewing images in full screen upon clicking them
+ * MAD-A1
+ *
+ * @author Pratyush Kumar (github.com/pratyushgta)
+ */
+
 package com.example.mad_a1_gallery;
 
 import androidx.appcompat.app.AppCompatActivity;
