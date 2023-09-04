@@ -2,7 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="PantoneBLACK6C">#00050D</color>
-    <color name="PantoneBLUE540PC">#003E87</color>
-    <color name="PantoneGRAYWmGy1PC">#EDEBE9</color>
+    <color name="PantoneBLACK_6C">#00050D</color>
+    <color name="PantoneBLUE_540PC">#003E87</color>
+    <color name="PantoneGRAYWmGy_1PC">#EDEBE9</color>
+    <color name="PiperTeal">#006363</color>
+    <color name="PantoneYellow_7408C">#FFB303</color>
 </resources>

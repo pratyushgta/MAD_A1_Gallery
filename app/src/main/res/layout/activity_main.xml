@@ -21,11 +21,11 @@
         app:srcCompat="@drawable/img1_homepage_edited" />
 
     <com.google.android.material.card.MaterialCardView
-        android:id="@+id/home_desc"
+        android:id="@+id/cardView"
         android:layout_width="332dp"
         android:layout_height="171dp"
-        android:backgroundTint="#33003E87"
         app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="#33003E87"
         app:layout_constraintBottom_toTopOf="@+id/home_img"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.592"
@@ -38,38 +38,40 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/home_desc"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
-                android:padding="20dp"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="20dp"
+                android:paddingRight="30dp"
                 android:text="TextView"
-                android:textColor="@color/PantoneGRAYWmGy1PC"
-                app:layout_constraintBottom_toTopOf="@+id/guidelineButton"
+                android:textAlignment="center"
+                android:textColor="@color/PantoneGRAYWmGy_1PC"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/next_btn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/next_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
                 android:backgroundTint="#00000000"
                 android:fontFamily="monospace"
                 android:padding="15dp"
                 android:text="Explore ➤"
-                android:textColor="#F6F3F3"
+                android:textColor="@color/PiperTeal"
+                android:textStyle="bold"
                 app:cornerRadius="100dp"
-                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintBottom_toEndOf="@+id/guidelineButton" />
-
-            <androidx.constraintlayout.widget.Guideline
-                android:id="@+id/guidelineButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintGuide_percent="0.9" />
+                app:layout_constraintEnd_toEndOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
